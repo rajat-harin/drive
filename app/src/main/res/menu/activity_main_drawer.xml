@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_nearby"
+            android:icon="@drawable/ic_near_me_black"
+            android:title="Nearby" />
+        <item
+            android:id="@+id/nav_cpr"
+            android:icon="@drawable/ic_local_hospital_black"
+            android:title="CPR Methods" />
+        <item
+            android:id="@+id/nav_cpr_vid"
+            android:icon="@drawable/ic_local_hospital_black"
+            android:title="CPR Methods Video" />
+
+    </group>
+
+
+</menu>

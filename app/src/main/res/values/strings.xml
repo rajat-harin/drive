@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Drive-S</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format1">
+        Delivery of chest compressions. Note the overlapping hands placed on the center of the sternum,
+        with the rescuer\'s arms extended. Chest compressions are to be delivered at
+        a rate of at least 100 compressions per minute.
+    </string>
+    <string name="section_format2">
+        Delivery of mouth-to-mouth ventilation.
+    </string>
+    <string name="section_format3">
+        CPR should be performed immediately on any person who has become
+        unconscious and is found to be pulseless. Assessment of cardiac electrical
+        activity via rapid “rhythm strip” recording can provide a more detailed analysis
+        of the type of cardiac arrest, as well as indicate additional treatment options.
+
+        TO CALL AMBULANCE CLICK BUTTON IN CORNER.
+    </string>
+</resources>
