@@ -41,7 +41,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     Marker mCurrLocationMarker;
     LocationRequest mLocationRequest;
     private GoogleMap mMap;
-    private int PROXIMITY_RADIUS = 10000;
+    private int PROXIMITY_RADIUS = 5000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,8 +82,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
+     * This is where we can add markers or lines, add listeners or move the camera.
      * If Google Play services is not installed on the device, the user will be prompted to install
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
@@ -146,7 +145,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         Button btnSchool = findViewById(R.id.btnSchool);
         btnSchool.setOnClickListener(new View.OnClickListener() {
-            String Petrolpump = "gas station";
+            String Petrolpump = "gas_station";
 
             @Override
             public void onClick(View v) {
